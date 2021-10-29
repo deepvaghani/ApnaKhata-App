@@ -78,6 +78,25 @@
             app:layout_constraintVertical_bias="0.025"
             app:srcCompat="@drawable/login3" />
 
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="19dp"
+            app:layout_constraintBaseline_toBaselineOf="@+id/textView4"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="83dp"
+            android:text="Remember me"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@+id/loginbutton"
+            app:layout_constraintStart_toEndOf="@+id/checkBox" />
+
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
